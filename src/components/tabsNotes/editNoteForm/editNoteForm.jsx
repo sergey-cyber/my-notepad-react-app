@@ -14,7 +14,7 @@ const EditNoteForm = (props) => {
             <h2>Edit Note</h2>
             <div>
                 <Field name="editNote" component={'input'} placeholder='inter new text' 
-                    className={style.editNoteInput} autoFocus={'true'} />
+                    className={style.editNoteInput} autoFocus={true} />
             </div>
             <button type={'submit'} className={style.editNoteBtn} >
                 Save

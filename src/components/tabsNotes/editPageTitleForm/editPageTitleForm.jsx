@@ -14,7 +14,7 @@ const EditPageTitleForm = (props) => {
             <h2>Edit page title</h2>
             <div>
                 <Field name="editPageTitle" component={'input'} placeholder='inter new title' 
-                    className={style.editPageTitleInput} autoFocus={'true'} />
+                    className={style.editPageTitleInput} autoFocus={true} />
             </div>
             <button type={'submit'} className={style.editPageTitleBtn} >
                 Save
