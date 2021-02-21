@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-notepad-react-app/static/css/main.27ca4a74.chunk.css",
-    "main.js": "/my-notepad-react-app/static/js/main.22f4d08f.chunk.js",
-    "main.js.map": "/my-notepad-react-app/static/js/main.22f4d08f.chunk.js.map",
+    "main.js": "/my-notepad-react-app/static/js/main.ec09c6b0.chunk.js",
+    "main.js.map": "/my-notepad-react-app/static/js/main.ec09c6b0.chunk.js.map",
     "runtime-main.js": "/my-notepad-react-app/static/js/runtime-main.97bd8e6d.js",
     "runtime-main.js.map": "/my-notepad-react-app/static/js/runtime-main.97bd8e6d.js.map",
     "static/js/2.b1af5ddb.chunk.js": "/my-notepad-react-app/static/js/2.b1af5ddb.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.97bd8e6d.js",
     "static/js/2.b1af5ddb.chunk.js",
     "static/css/main.27ca4a74.chunk.css",
-    "static/js/main.22f4d08f.chunk.js"
+    "static/js/main.ec09c6b0.chunk.js"
   ]
 }
