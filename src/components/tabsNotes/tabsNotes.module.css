@@ -1,0 +1,27 @@
+.showAllPagesButton{
+    width: 100%;
+}
+
+.showAllPagesButton select{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 5px 0;
+}
+
+.addNewPageButton{
+    height: 70%;
+    width: auto;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: #f50057;
+    transform: translateY(35%);
+    margin-left: 5px;
+    color: #fff;
+}
+
+.color{
+    background-color: red;
+}
+

@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+import React, { useEffect } from 'react';
 import './App.css';
+import Registration from './components/registration/registration';
+import ScrollableTabsButtonAuto from './components/tabsNotes/tabsNotes';
+import { compose } from 'redux';
+import { connect } from 'react-redux';
+import {setAuth} from './redux/auth-reduser';
 
-function App() {
+const App = (props) => {
+
+  useEffect(()=>{
+     props.setAuth();
+  });
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        { !props.isAuth ? 
+          
+          <Registration /> 
+        :
+        <>
+          <ScrollableTabsButtonAuto /> 
+        </>
+        }
     </div>
   );
 }
 
-export default App;
+const mapStateToProps = (state) => {
+  return {
+    isAuth: state.auth.isAuth
+  }
+}
+
+export default compose (
+  connect(mapStateToProps, { setAuth }))(App);
+

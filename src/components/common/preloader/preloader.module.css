@@ -1,0 +1,16 @@
+.preloader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+}
+
+.smallPreloader{
+    height: 70px;
+    text-align: center;
+}
+
+.smallPreloader img{
+    height: 100%;
+}

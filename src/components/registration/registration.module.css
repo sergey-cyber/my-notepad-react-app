@@ -1,0 +1,69 @@
+.formTitle{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+}
+
+.regButton, .loginButton{
+    background-color: aqua;
+    margin: 35px 0 20px;
+    padding: 15px 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 18px;
+}
+
+.regButton{
+    background-color:orangered;
+}
+
+.error{
+    color: red;
+    text-align: center;
+    height: 20px;
+    width: 100%;
+}
+/*Modal window*/
+
+.modalWrapper{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal{
+    width: 90%;
+    height: 50%;
+    background-color: beige;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal h2{
+    padding: 0 30px;
+}
+
+.modal button{
+    display: block;
+    border: none;
+    outline: none;
+    padding: 20px 40px;
+    background-color: darkturquoise;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+

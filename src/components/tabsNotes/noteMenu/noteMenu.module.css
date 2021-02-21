@@ -1,0 +1,48 @@
+.setNoteColor{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    z-index: 5;
+    background-color: #fff;
+}
+
+.setColorItem{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.setColorItem label{
+    margin-left: 10px;
+}
+
+.setNoteColor button{
+    margin: 10px 0;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background-color:coral;
+    transform: translateX(150%);
+    border-radius: 5px;
+}
+
+.setNoteColor span{
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.setNoteColor h2{
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+.newPageForm{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.newPageForm div{
+    width: 85%;
+}
+
+.newPageInput{
+    width: 100%;
+    margin: 8px 0 8px 8px;
+    outline: none;
+}
+
+.newPageForm button{
+    width: 7%;
+    background-color: #f50057;
+    border-radius: 50%;
+    color: #fff;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}

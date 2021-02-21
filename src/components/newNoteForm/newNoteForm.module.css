@@ -1,0 +1,32 @@
+.newNoteForm{
+    width: 100%;
+    background-color: #3f51b5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newNoteBtn{
+    width: 8%;
+    height: auto;
+    border-radius: 50%;
+    background-color: #f50057;
+    margin: 5px 5px 5px 0;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.newNoteForm div{
+    width: 85%;
+}
+
+.newNoteInput{
+    width: 100%;
+    height: 30px;
+    margin-left: 5px;
+    outline: none;
+}
