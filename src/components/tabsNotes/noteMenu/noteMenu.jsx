@@ -3,8 +3,6 @@ import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import { connect } from 'react-redux';
-import IconButton from '@material-ui/core/IconButton';
-import MoreIcon from '@material-ui/icons/MoreVert';
 import {deleteNote} from '../../../redux/note-reduser';
 import style from './noteMenu.module.css';
 
@@ -37,11 +35,8 @@ const NoteMenu = (props) => {
     }
 
     return (
-        <div>
-            <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} className={style.noteMenuBtnWrap} >
-                {/* <IconButton edge="end" color="inherit" className={style.noteMenuBtn} >
-                    <MoreIcon />
-                </IconButton> */}
+        <div className={style.noteMenuBtnWrap} >
+            <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}  >
             </Button>
             <Menu
                 id="simple-menu"
