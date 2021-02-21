@@ -38,10 +38,10 @@ const NoteMenu = (props) => {
 
     return (
         <div>
-            <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} className={style.noteMenuBtn} >
-                <IconButton edge="end" color="inherit">
+            <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} className={style.noteMenuBtnWrap} >
+                {/* <IconButton edge="end" color="inherit" className={style.noteMenuBtn} >
                     <MoreIcon />
-                </IconButton>
+                </IconButton> */}
             </Button>
             <Menu
                 id="simple-menu"

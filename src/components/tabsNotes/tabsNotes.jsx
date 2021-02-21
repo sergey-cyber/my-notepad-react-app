@@ -82,6 +82,7 @@ const useStyles = makeStyles((theme) => ({
   note: {
     borderBottom: '1px solid rgba(0,0,0,.25)',
     margin: '3px',
+    padding: '8px 0',
   },
   text: {
     wordWrap: 'break-word'
@@ -158,9 +159,9 @@ const ScrollableTabsButtonAuto = (props) => {
                 {id === 5 && <ListSubheader className={classes.subheader}>Yesterday</ListSubheader>} */}
                 <ListItem button className={classes.note} 
                   style={{backgroundColor: note.backgroundColor, color: note.textColor}} >
-                  <ListItemText primary={note.content} />
+                  <ListItemText primary={note.content} className={classes.noteContent} />
                   <NoteMenu setNoteEditMode={setNoteEditMode} pageId={pageId} noteId={note._id}
-                     setNoteId={setNoteId} setNoteTextEditMode={setNoteTextEditMode} />
+                     setNoteId={setNoteId} setNoteTextEditMode={setNoteTextEditMode} className={classes.noteBtn}  />
                 </ListItem>
               </React.Fragment>
             ))}
