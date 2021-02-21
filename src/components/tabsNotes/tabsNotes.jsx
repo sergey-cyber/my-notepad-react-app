@@ -124,7 +124,7 @@ const ScrollableTabsButtonAuto = (props) => {
         userId={props.userId} pageId={pageId} setTabColorEditMode={props.setTabColorEditMode} />}
       {noteEditMode && <NoteColorForm setNoteEditMode={setNoteEditMode} pageId={pageId} noteId={noteId} /> }
       {noteTextEditMode && <EditNoteFormContainer setNoteTextEditMode={setNoteTextEditMode} pageId={pageId} noteId={noteId} /> }
-      {pageTitleEditMode && <EditPageTitleFormContainer pageId={pageId} setPageTitleEditMode={setPageTitleEditMode} initialValues={props.pages} />}  
+      {pageTitleEditMode && <EditPageTitleFormContainer pageId={pageId} setPageTitleEditMode={setPageTitleEditMode} />}  
       <AppBar position="static" color="default" className={classes.appBar}>
         <Tabs
           value={value}

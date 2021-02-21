@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Field, reduxForm } from 'redux-form';
 import style from './editNoteForm.module.css';
 
@@ -24,7 +24,7 @@ const EditNoteForm = (props) => {
 }
 
 const EditNoteFormReduxForm = reduxForm({
-    form: 'editPageTitle'
+    form: 'editNoteForm',
 })(EditNoteForm);
 
 export default EditNoteFormReduxForm;
