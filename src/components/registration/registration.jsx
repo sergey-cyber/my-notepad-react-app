@@ -38,11 +38,12 @@ const Registration = (props) => {
       <Paper elevation={10} >
           <h1 className={style.formTitle}>MyNote</h1>
           <h2 className={style.formTitle}>Log in or register</h2>
-          <Route path={'/login'} render={() => <RegistrationReduxForm onSubmit = {login} 
+          <Route path={'/my-notepad-react-app/login'} render={() => <RegistrationReduxForm onSubmit = {login} 
               regOrLogErrorValue={props.regOrLogErrorValue} isLoading={props.isLoading} /> } />  
-          <Route path={'/registration'} render={() => <RegistrationReduxForm onSubmit = {registration} 
+          <Route path={'/my-notepad-react-app/registration'} render={() => <RegistrationReduxForm onSubmit = {registration} 
               regOrLogErrorValue={props.regOrLogErrorValue} isLoading={props.isLoading} /> } /> 
-          <Route exact path={'/'}> <Redirect to={'login'} /> </Route>
+          <Route exact path={'/'}> <Redirect to={'/my-notepad-react-app/login'} /> </Route>
+          <Route exact path={'my-notepad-react-app/'}> <Redirect to={'/my-notepad-react-app/login'} /> </Route>
       </Paper>
     </div>
   );

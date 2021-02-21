@@ -10,7 +10,7 @@ const App = (props) => {
 
   useEffect(()=>{
      props.setAuth();
-  });
+  },[]);
   
   return (
     <div className="App">

@@ -87,9 +87,9 @@ const MaterialUiForm = (props) => {
         {props.regOrLogErrorValue}
       </div>
       <div>
-        <Route path={'/login'} render={()=> <LoginButton pristine={pristine} submitting={submitting} 
+        <Route path={'/my-notepad-react-app/login'} render={()=> <LoginButton pristine={pristine} submitting={submitting} 
             isLoading={props.isLoading} /> } />
-        <Route path={'/registration'} render={()=> <RegistrationButton pristine={pristine} submitting={submitting}
+        <Route path={'/my-notepad-react-app/registration'} render={()=> <RegistrationButton pristine={pristine} submitting={submitting}
             isLoading={props.isLoading} /> } />
       </div>
     </form>
