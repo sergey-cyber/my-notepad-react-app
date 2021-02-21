@@ -6,6 +6,7 @@ import { connect } from 'react-redux';
 import IconButton from '@material-ui/core/IconButton';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import {deleteNote} from '../../../redux/note-reduser';
+import style from './noteMenu.module.css';
 
 const NoteMenu = (props) => {
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -37,7 +38,7 @@ const NoteMenu = (props) => {
 
     return (
         <div>
-            <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} >
+            <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} className={style.noteMenuBtn} >
                 <IconButton edge="end" color="inherit">
                     <MoreIcon />
                 </IconButton>
