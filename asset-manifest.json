@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/my-notepad-react-app/static/css/main.58ed8ff5.chunk.css",
-    "main.js": "/my-notepad-react-app/static/js/main.aca3807d.chunk.js",
-    "main.js.map": "/my-notepad-react-app/static/js/main.aca3807d.chunk.js.map",
+    "main.css": "/my-notepad-react-app/static/css/main.2f1abb49.chunk.css",
+    "main.js": "/my-notepad-react-app/static/js/main.cebcfa83.chunk.js",
+    "main.js.map": "/my-notepad-react-app/static/js/main.cebcfa83.chunk.js.map",
     "runtime-main.js": "/my-notepad-react-app/static/js/runtime-main.740869ae.js",
     "runtime-main.js.map": "/my-notepad-react-app/static/js/runtime-main.740869ae.js.map",
-    "static/js/2.c43bb80d.chunk.js": "/my-notepad-react-app/static/js/2.c43bb80d.chunk.js",
-    "static/js/2.c43bb80d.chunk.js.map": "/my-notepad-react-app/static/js/2.c43bb80d.chunk.js.map",
+    "static/js/2.9c43ded7.chunk.js": "/my-notepad-react-app/static/js/2.9c43ded7.chunk.js",
+    "static/js/2.9c43ded7.chunk.js.map": "/my-notepad-react-app/static/js/2.9c43ded7.chunk.js.map",
     "static/js/3.51780367.chunk.js": "/my-notepad-react-app/static/js/3.51780367.chunk.js",
     "static/js/3.51780367.chunk.js.map": "/my-notepad-react-app/static/js/3.51780367.chunk.js.map",
     "index.html": "/my-notepad-react-app/index.html",
-    "static/css/main.58ed8ff5.chunk.css.map": "/my-notepad-react-app/static/css/main.58ed8ff5.chunk.css.map",
-    "static/js/2.c43bb80d.chunk.js.LICENSE.txt": "/my-notepad-react-app/static/js/2.c43bb80d.chunk.js.LICENSE.txt",
+    "static/css/main.2f1abb49.chunk.css.map": "/my-notepad-react-app/static/css/main.2f1abb49.chunk.css.map",
+    "static/js/2.9c43ded7.chunk.js.LICENSE.txt": "/my-notepad-react-app/static/js/2.9c43ded7.chunk.js.LICENSE.txt",
     "static/media/preloader.4695b8d7.gif": "/my-notepad-react-app/static/media/preloader.4695b8d7.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.740869ae.js",
-    "static/js/2.c43bb80d.chunk.js",
-    "static/css/main.58ed8ff5.chunk.css",
-    "static/js/main.aca3807d.chunk.js"
+    "static/js/2.9c43ded7.chunk.js",
+    "static/css/main.2f1abb49.chunk.css",
+    "static/js/main.cebcfa83.chunk.js"
   ]
 }
