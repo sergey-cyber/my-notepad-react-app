@@ -72,7 +72,8 @@ export const registration = (login, password) => {
             .then(response => {     
                 if(response.result === 'ok') {        
                     dispatch(setRegistrationModalWindow(true)); 
-                    dispatch(regOrLogErrorData(null));            
+                    dispatch(regOrLogErrorData(null)); 
+                    dispatch(setLoading(false));           
                 } else {
                     dispatch(regOrLogErrorData(response.error));  
                     dispatch(setLoading(false));                 
@@ -90,6 +91,7 @@ export const login = (login, password) => {
                     localStorage.setItem('id', response.userId);                  
                     dispatch(setAuth());
                     dispatch(regOrLogErrorData(null)); 
+                    dispatch(setLoading(false));
                 } else {
                     dispatch(regOrLogErrorData(response.error));
                     dispatch(setLoading(false)); 
