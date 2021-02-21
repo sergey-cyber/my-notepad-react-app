@@ -43,7 +43,7 @@ const Registration = (props) => {
           <Route path={'/my-notepad-react-app/registration'} render={() => <RegistrationReduxForm onSubmit = {registration} 
               regOrLogErrorValue={props.regOrLogErrorValue} isLoading={props.isLoading} /> } /> 
           <Route exact path={'/'}> <Redirect to={'/my-notepad-react-app/login'} /> </Route>
-          <Route exact path={'my-notepad-react-app/'}> <Redirect to={'/my-notepad-react-app/login'} /> </Route>
+          <Route exact path={'/my-notepad-react-app/'}> <Redirect to={'/my-notepad-react-app/login'} /> </Route>
       </Paper>
     </div>
   );
