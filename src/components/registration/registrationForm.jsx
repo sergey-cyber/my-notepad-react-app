@@ -13,7 +13,7 @@ const LoginButton = (props) => {
         {props.isLoading ? <SmallPreloader /> : 'Login'} 
       </button>
       <div>
-        <NavLink variant="contained" to={'/registration'} >
+        <NavLink variant="contained" to={'/my-notepad-react-app/registration'} >
           Go to registration
         </NavLink>
       </div>
@@ -28,7 +28,7 @@ const RegistrationButton = (props) => {
         {props.isLoading ? <SmallPreloader /> : 'Registration'} 
       </button>
       <div>
-        <NavLink variant="contained" to={'/login'} >
+        <NavLink variant="contained" to={'/my-notepad-react-app/login'} >
           Go to login
         </NavLink>
       </div>
